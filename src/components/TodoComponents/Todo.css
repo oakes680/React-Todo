@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+span {
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+    margin: 0 auto;
+    text-align:center;
+    width: 50%;
+  
+}
+
+.item.done {
+ 
+  text-decoration: line-through;
+}
+
+.inputField {
+    border-radius: 10px;
+     border: 1px solid #686666;
+
+}
+
+.addButton {
+    background: rgb(68, 202, 120);
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    padding: 5px 15px;
+}
+
+.clearButton {
+    background: rgb(209, 132, 132);
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    padding: 5px 15px;
+}
